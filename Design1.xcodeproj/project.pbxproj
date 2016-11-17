@@ -15,8 +15,11 @@
 		0D3216851DDC49AF00FDBC13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3216831DDC49AF00FDBC13 /* LaunchScreen.storyboard */; };
 		0D3216961DDC526900FDBC13 /* Cache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D3216951DDC526900FDBC13 /* Cache.mm */; };
 		0D32169C1DDC5CF300FDBC13 /* TutorialModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D32169B1DDC5CF300FDBC13 /* TutorialModel.mm */; };
-		0D32169F1DDC6AAE00FDBC13 /* DiskLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D32169E1DDC6AAE00FDBC13 /* DiskLoader.mm */; };
-		0D3216A21DDC6AB700FDBC13 /* WebLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D3216A11DDC6AB700FDBC13 /* WebLoader.mm */; };
+		0DE7F33D1DDDA44D00A55D3C /* TutorialFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F33C1DDDA44D00A55D3C /* TutorialFactory.mm */; };
+		0DE7F3401DDDA71D00A55D3C /* TutorialRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F33F1DDDA71D00A55D3C /* TutorialRequest.mm */; };
+		0DE7F3431DDDAC6500A55D3C /* TutorialURLProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F3421DDDAC6500A55D3C /* TutorialURLProvider.mm */; };
+		0DE7F3461DDDAFAB00A55D3C /* TutorialMetaDataCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F3451DDDAFAB00A55D3C /* TutorialMetaDataCache.mm */; };
+		0DE7F3491DDDB1C900A55D3C /* TutorialMetaData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F3481DDDB1C900A55D3C /* TutorialMetaData.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,18 +34,22 @@
 		0D3216841DDC49AF00FDBC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3216861DDC49AF00FDBC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D32168C1DDC49EB00FDBC13 /* TutorialLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialLoader.h; sourceTree = "<group>"; };
-		0D32168D1DDC4CA700FDBC13 /* DiskDailyTutorialLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskDailyTutorialLoader.h; sourceTree = "<group>"; };
-		0D3216901DDC4CBE00FDBC13 /* WebDailyTutorialLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDailyTutorialLoader.h; sourceTree = "<group>"; };
 		0D3216931DDC4E3E00FDBC13 /* TutorialManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialManager.h; sourceTree = "<group>"; };
-		0D3216941DDC526900FDBC13 /* Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		0D3216941DDC526900FDBC13 /* TutorialModelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModelCache.h; sourceTree = "<group>"; };
 		0D3216951DDC526900FDBC13 /* Cache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cache.mm; sourceTree = "<group>"; };
 		0D3216971DDC52EF00FDBC13 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
 		0D32169A1DDC5CF300FDBC13 /* TutorialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModel.h; sourceTree = "<group>"; };
 		0D32169B1DDC5CF300FDBC13 /* TutorialModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialModel.mm; sourceTree = "<group>"; };
-		0D32169D1DDC6AAE00FDBC13 /* DiskLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskLoader.h; sourceTree = "<group>"; };
-		0D32169E1DDC6AAE00FDBC13 /* DiskLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DiskLoader.mm; sourceTree = "<group>"; };
-		0D3216A01DDC6AB700FDBC13 /* WebLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebLoader.h; sourceTree = "<group>"; };
-		0D3216A11DDC6AB700FDBC13 /* WebLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WebLoader.mm; sourceTree = "<group>"; };
+		0DE7F33B1DDDA44D00A55D3C /* TutorialFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialFactory.h; sourceTree = "<group>"; };
+		0DE7F33C1DDDA44D00A55D3C /* TutorialFactory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialFactory.mm; sourceTree = "<group>"; };
+		0DE7F33E1DDDA71D00A55D3C /* TutorialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialRequest.h; sourceTree = "<group>"; };
+		0DE7F33F1DDDA71D00A55D3C /* TutorialRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialRequest.mm; sourceTree = "<group>"; };
+		0DE7F3411DDDAC6500A55D3C /* TutorialURLProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialURLProvider.h; sourceTree = "<group>"; };
+		0DE7F3421DDDAC6500A55D3C /* TutorialURLProvider.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialURLProvider.mm; sourceTree = "<group>"; };
+		0DE7F3441DDDAFAB00A55D3C /* TutorialMetaDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialMetaDataCache.h; sourceTree = "<group>"; };
+		0DE7F3451DDDAFAB00A55D3C /* TutorialMetaDataCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialMetaDataCache.mm; sourceTree = "<group>"; };
+		0DE7F3471DDDB1C900A55D3C /* TutorialMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialMetaData.h; sourceTree = "<group>"; };
+		0DE7F3481DDDB1C900A55D3C /* TutorialMetaData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialMetaData.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,17 +93,21 @@
 				0D3216861DDC49AF00FDBC13 /* Info.plist */,
 				0D3216751DDC49AF00FDBC13 /* Supporting Files */,
 				0D32168C1DDC49EB00FDBC13 /* TutorialLoader.h */,
-				0D3216901DDC4CBE00FDBC13 /* WebDailyTutorialLoader.h */,
-				0D32168D1DDC4CA700FDBC13 /* DiskDailyTutorialLoader.h */,
-				0D3216941DDC526900FDBC13 /* Cache.h */,
+				0D3216941DDC526900FDBC13 /* TutorialModelCache.h */,
 				0D3216951DDC526900FDBC13 /* Cache.mm */,
 				0D3216971DDC52EF00FDBC13 /* Clock.h */,
 				0D32169A1DDC5CF300FDBC13 /* TutorialModel.h */,
 				0D32169B1DDC5CF300FDBC13 /* TutorialModel.mm */,
-				0D32169D1DDC6AAE00FDBC13 /* DiskLoader.h */,
-				0D32169E1DDC6AAE00FDBC13 /* DiskLoader.mm */,
-				0D3216A01DDC6AB700FDBC13 /* WebLoader.h */,
-				0D3216A11DDC6AB700FDBC13 /* WebLoader.mm */,
+				0DE7F33B1DDDA44D00A55D3C /* TutorialFactory.h */,
+				0DE7F33C1DDDA44D00A55D3C /* TutorialFactory.mm */,
+				0DE7F33E1DDDA71D00A55D3C /* TutorialRequest.h */,
+				0DE7F33F1DDDA71D00A55D3C /* TutorialRequest.mm */,
+				0DE7F3411DDDAC6500A55D3C /* TutorialURLProvider.h */,
+				0DE7F3421DDDAC6500A55D3C /* TutorialURLProvider.mm */,
+				0DE7F3441DDDAFAB00A55D3C /* TutorialMetaDataCache.h */,
+				0DE7F3451DDDAFAB00A55D3C /* TutorialMetaDataCache.mm */,
+				0DE7F3471DDDB1C900A55D3C /* TutorialMetaData.h */,
+				0DE7F3481DDDB1C900A55D3C /* TutorialMetaData.mm */,
 			);
 			path = Design1;
 			sourceTree = "<group>";
@@ -182,9 +193,12 @@
 				0D3216961DDC526900FDBC13 /* Cache.mm in Sources */,
 				0D32167D1DDC49AF00FDBC13 /* ViewController.m in Sources */,
 				0D32167A1DDC49AF00FDBC13 /* AppDelegate.m in Sources */,
-				0D3216A21DDC6AB700FDBC13 /* WebLoader.mm in Sources */,
-				0D32169F1DDC6AAE00FDBC13 /* DiskLoader.mm in Sources */,
+				0DE7F3491DDDB1C900A55D3C /* TutorialMetaData.mm in Sources */,
+				0DE7F33D1DDDA44D00A55D3C /* TutorialFactory.mm in Sources */,
 				0D3216771DDC49AF00FDBC13 /* main.m in Sources */,
+				0DE7F3401DDDA71D00A55D3C /* TutorialRequest.mm in Sources */,
+				0DE7F3461DDDAFAB00A55D3C /* TutorialMetaDataCache.mm in Sources */,
+				0DE7F3431DDDAC6500A55D3C /* TutorialURLProvider.mm in Sources */,
 				0D32169C1DDC5CF300FDBC13 /* TutorialModel.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +350,7 @@
 				0D32168B1DDC49AF00FDBC13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

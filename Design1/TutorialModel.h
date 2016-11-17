@@ -7,9 +7,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TutorialModel : NSObject
 
-- (NSData *)data;
+- (instancetype)initWithTutorialId:(NSString *)tutorialId tutorialData:(NSData *)data;
 
-- (NSString *)dataFormat;
+@property (readonly, nonatomic) NSString *tutorialId;
+
+@property (readonly, nonatomic) NSData *tutorialData;
 
 @end
 

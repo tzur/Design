@@ -3,19 +3,27 @@
 
 #import <Foundation/Foundation.h>
 
+#import "TutorialFactory.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 
-@class TutorialModel;
+@class TutorialRequest, TutorialURLPRovider,TutorialMetaData, TutorialModelFactory;
 
-typedef void (^TutorialImageCompletion)(NSArray<TutorialModel  *> * _Nullable,
-                                        NSError * _Nullable error);
+
+
+typedef void (^TutorialLoaderCompletion)(TutorialMetaData * _Nullable,
+                                         TutorialModel * _Nullable tutorialModel,
+                                         NSError * _Nullable * error);
 
 @protocol TutorialLoader <NSObject>
 
+- (instancetype)initWithTutorialURLProvider:(TutorialURLPRovider *)urlProvider
+                            tutorialModelCreator:(TutorialModelCreator)tutorialModelCreator
+                    tutorialMetaDataCreator:(TutorialMetaDataCreator)tutorialMetaDataCreator;
 
-- (void)loadTutorialScreenTraitCollection:(UITraitCollection *)screenTraitCollection
-                               completion:(TutorialImageCompletion)completion;
+- (void)loadTutorialWithTutorialRequest:(TutorialRequest *)request
+                              completion:(TutorialLoaderCompletion)completion;
 
 @end
 

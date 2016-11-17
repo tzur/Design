@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TutorialCacheManager.h"
 #import "TutorialLoader.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

@@ -5,8 +5,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/// Object used to receive the current time.
 @interface Clock : NSObject
 
+/// Returns the current time.
 - (NSDate *)currentTime;
 
 @end

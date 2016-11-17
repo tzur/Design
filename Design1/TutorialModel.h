@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (readonly, nonatomic) NSData *tutorialData;
 
+@property (readonly, nonatomic) NSString *dataFormat;
+
 @end
 
 NS_ASSUME_NONNULL_END

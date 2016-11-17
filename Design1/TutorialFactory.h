@@ -13,7 +13,7 @@ typedef TutorialModel * _Nonnull (^TutorialModelCreator)(TutorialRequest *tutori
 typedef TutorialMetaData * _Nonnull (^TutorialMetaDataCreator)(TutorialRequest *tutorialRequest,
                                                                NSData *tutorialMetaData);
 
-@interface TutorialFactory : NSObject
+@interface TutorialParser : NSObject
 
 + (TutorialModelCreator)tutorialModelCreator;
 

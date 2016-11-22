@@ -8,54 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0D3216771DDC49AF00FDBC13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3216761DDC49AF00FDBC13 /* main.m */; };
-		0D32167A1DDC49AF00FDBC13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3216791DDC49AF00FDBC13 /* AppDelegate.m */; };
-		0D32167D1DDC49AF00FDBC13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32167C1DDC49AF00FDBC13 /* ViewController.m */; };
 		0D3216801DDC49AF00FDBC13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D32167E1DDC49AF00FDBC13 /* Main.storyboard */; };
 		0D3216821DDC49AF00FDBC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3216811DDC49AF00FDBC13 /* Assets.xcassets */; };
 		0D3216851DDC49AF00FDBC13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3216831DDC49AF00FDBC13 /* LaunchScreen.storyboard */; };
-		0D3216961DDC526900FDBC13 /* Cache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D3216951DDC526900FDBC13 /* Cache.mm */; };
-		0D32169C1DDC5CF300FDBC13 /* TutorialModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D32169B1DDC5CF300FDBC13 /* TutorialModel.mm */; };
-		0DE7F33D1DDDA44D00A55D3C /* TutorialFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F33C1DDDA44D00A55D3C /* TutorialFactory.mm */; };
-		0DE7F3401DDDA71D00A55D3C /* TutorialRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F33F1DDDA71D00A55D3C /* TutorialRequest.mm */; };
-		0DE7F3431DDDAC6500A55D3C /* TutorialURLProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F3421DDDAC6500A55D3C /* TutorialURLProvider.mm */; };
-		0DE7F3461DDDAFAB00A55D3C /* TutorialMetaDataCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F3451DDDAFAB00A55D3C /* TutorialMetaDataCache.mm */; };
-		0DE7F3491DDDB1C900A55D3C /* TutorialMetaData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F3481DDDB1C900A55D3C /* TutorialMetaData.mm */; };
-		0DE7F34C1DDDD88300A55D3C /* TutorialModelView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F34B1DDDD88300A55D3C /* TutorialModelView.mm */; };
-		0DE7F34F1DDDE11100A55D3C /* Tutorial.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7F34E1DDDE11100A55D3C /* Tutorial.mm */; };
+		0D5E35621DE43A0900E428C2 /* imports.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D5E35611DE43A0900E428C2 /* imports.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D3216721DDC49AF00FDBC13 /* Design1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Design1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3216761DDC49AF00FDBC13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D3216781DDC49AF00FDBC13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0D3216791DDC49AF00FDBC13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D32167B1DDC49AF00FDBC13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D32167C1DDC49AF00FDBC13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D32167F1DDC49AF00FDBC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D3216811DDC49AF00FDBC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D3216841DDC49AF00FDBC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3216861DDC49AF00FDBC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D32168C1DDC49EB00FDBC13 /* TutorialLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialLoader.h; sourceTree = "<group>"; };
-		0D3216931DDC4E3E00FDBC13 /* TutorialCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialCacheManager.h; sourceTree = "<group>"; };
+		0D3216931DDC4E3E00FDBC13 /* TutorialManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialManager.h; sourceTree = "<group>"; };
 		0D3216941DDC526900FDBC13 /* TutorialModelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModelCache.h; sourceTree = "<group>"; };
-		0D3216951DDC526900FDBC13 /* Cache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cache.mm; sourceTree = "<group>"; };
 		0D3216971DDC52EF00FDBC13 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
 		0D32169A1DDC5CF300FDBC13 /* TutorialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModel.h; sourceTree = "<group>"; };
-		0D32169B1DDC5CF300FDBC13 /* TutorialModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialModel.mm; sourceTree = "<group>"; };
-		0DE7F33B1DDDA44D00A55D3C /* TutorialFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialFactory.h; sourceTree = "<group>"; };
-		0DE7F33C1DDDA44D00A55D3C /* TutorialFactory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialFactory.mm; sourceTree = "<group>"; };
+		0D5E35601DE43A0900E428C2 /* imports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imports.h; sourceTree = "<group>"; };
+		0D5E35611DE43A0900E428C2 /* imports.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = imports.mm; sourceTree = "<group>"; };
+		0DE7F33B1DDDA44D00A55D3C /* TutorialParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialParser.h; sourceTree = "<group>"; };
 		0DE7F33E1DDDA71D00A55D3C /* TutorialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialRequest.h; sourceTree = "<group>"; };
-		0DE7F33F1DDDA71D00A55D3C /* TutorialRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialRequest.mm; sourceTree = "<group>"; };
 		0DE7F3411DDDAC6500A55D3C /* TutorialURLProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialURLProvider.h; sourceTree = "<group>"; };
-		0DE7F3421DDDAC6500A55D3C /* TutorialURLProvider.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialURLProvider.mm; sourceTree = "<group>"; };
 		0DE7F3441DDDAFAB00A55D3C /* TutorialMetaDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialMetaDataCache.h; sourceTree = "<group>"; };
-		0DE7F3451DDDAFAB00A55D3C /* TutorialMetaDataCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialMetaDataCache.mm; sourceTree = "<group>"; };
 		0DE7F3471DDDB1C900A55D3C /* TutorialMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialMetaData.h; sourceTree = "<group>"; };
-		0DE7F3481DDDB1C900A55D3C /* TutorialMetaData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialMetaData.mm; sourceTree = "<group>"; };
 		0DE7F34A1DDDD88300A55D3C /* TutorialModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModelView.h; sourceTree = "<group>"; };
-		0DE7F34B1DDDD88300A55D3C /* TutorialModelView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TutorialModelView.mm; sourceTree = "<group>"; };
 		0DE7F34D1DDDE11100A55D3C /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
-		0DE7F34E1DDDE11100A55D3C /* Tutorial.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tutorial.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +51,8 @@
 		0D3216691DDC49AF00FDBC13 = {
 			isa = PBXGroup;
 			children = (
-				0D3216741DDC49AF00FDBC13 /* Design1 */,
+				0D3216751DDC49AF00FDBC13 /* Supporting Files */,
+				0D3216741DDC49AF00FDBC13 /* DesignExc1 */,
 				0D3216731DDC49AF00FDBC13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,49 +65,79 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D3216741DDC49AF00FDBC13 /* Design1 */ = {
+		0D3216741DDC49AF00FDBC13 /* DesignExc1 */ = {
 			isa = PBXGroup;
 			children = (
-				0D3216931DDC4E3E00FDBC13 /* TutorialCacheManager.h */,
-				0D3216781DDC49AF00FDBC13 /* AppDelegate.h */,
-				0D3216791DDC49AF00FDBC13 /* AppDelegate.m */,
-				0D32167B1DDC49AF00FDBC13 /* ViewController.h */,
-				0D32167C1DDC49AF00FDBC13 /* ViewController.m */,
-				0D32167E1DDC49AF00FDBC13 /* Main.storyboard */,
-				0D3216811DDC49AF00FDBC13 /* Assets.xcassets */,
-				0D3216831DDC49AF00FDBC13 /* LaunchScreen.storyboard */,
-				0D3216861DDC49AF00FDBC13 /* Info.plist */,
-				0D3216751DDC49AF00FDBC13 /* Supporting Files */,
-				0D32168C1DDC49EB00FDBC13 /* TutorialLoader.h */,
-				0D3216941DDC526900FDBC13 /* TutorialModelCache.h */,
-				0D3216951DDC526900FDBC13 /* Cache.mm */,
-				0D3216971DDC52EF00FDBC13 /* Clock.h */,
-				0D32169A1DDC5CF300FDBC13 /* TutorialModel.h */,
-				0D32169B1DDC5CF300FDBC13 /* TutorialModel.mm */,
-				0DE7F33B1DDDA44D00A55D3C /* TutorialFactory.h */,
-				0DE7F33C1DDDA44D00A55D3C /* TutorialFactory.mm */,
-				0DE7F33E1DDDA71D00A55D3C /* TutorialRequest.h */,
-				0DE7F33F1DDDA71D00A55D3C /* TutorialRequest.mm */,
-				0DE7F3411DDDAC6500A55D3C /* TutorialURLProvider.h */,
-				0DE7F3421DDDAC6500A55D3C /* TutorialURLProvider.mm */,
-				0DE7F3441DDDAFAB00A55D3C /* TutorialMetaDataCache.h */,
-				0DE7F3451DDDAFAB00A55D3C /* TutorialMetaDataCache.mm */,
-				0DE7F3471DDDB1C900A55D3C /* TutorialMetaData.h */,
-				0DE7F3481DDDB1C900A55D3C /* TutorialMetaData.mm */,
-				0DE7F34A1DDDD88300A55D3C /* TutorialModelView.h */,
-				0DE7F34B1DDDD88300A55D3C /* TutorialModelView.mm */,
-				0DE7F34D1DDDE11100A55D3C /* Tutorial.h */,
-				0DE7F34E1DDDE11100A55D3C /* Tutorial.mm */,
+				0D5E35671DE43C0900E428C2 /* Utils */,
+				0D5E35661DE43BCB00E428C2 /* TutorialModels */,
+				0D5E35651DE43B9F00E428C2 /* LoadingModels */,
+				0D5E35641DE43B9400E428C2 /* TutorialModelView */,
+				0D5E35631DE43B8700E428C2 /* Caches */,
 			);
+			name = DesignExc1;
 			path = Design1;
 			sourceTree = "<group>";
 		};
 		0D3216751DDC49AF00FDBC13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D3216811DDC49AF00FDBC13 /* Assets.xcassets */,
+				0D3216831DDC49AF00FDBC13 /* LaunchScreen.storyboard */,
+				0D3216861DDC49AF00FDBC13 /* Info.plist */,
+				0D32167E1DDC49AF00FDBC13 /* Main.storyboard */,
 				0D3216761DDC49AF00FDBC13 /* main.m */,
+				0D5E35601DE43A0900E428C2 /* imports.h */,
+				0D5E35611DE43A0900E428C2 /* imports.mm */,
 			);
 			name = "Supporting Files";
+			path = Design1;
+			sourceTree = "<group>";
+		};
+		0D5E35631DE43B8700E428C2 /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+				0D3216941DDC526900FDBC13 /* TutorialModelCache.h */,
+				0DE7F3441DDDAFAB00A55D3C /* TutorialMetaDataCache.h */,
+			);
+			name = Caches;
+			sourceTree = "<group>";
+		};
+		0D5E35641DE43B9400E428C2 /* TutorialModelView */ = {
+			isa = PBXGroup;
+			children = (
+				0DE7F34A1DDDD88300A55D3C /* TutorialModelView.h */,
+			);
+			name = TutorialModelView;
+			sourceTree = "<group>";
+		};
+		0D5E35651DE43B9F00E428C2 /* LoadingModels */ = {
+			isa = PBXGroup;
+			children = (
+				0D32168C1DDC49EB00FDBC13 /* TutorialLoader.h */,
+				0DE7F3411DDDAC6500A55D3C /* TutorialURLProvider.h */,
+			);
+			name = LoadingModels;
+			sourceTree = "<group>";
+		};
+		0D5E35661DE43BCB00E428C2 /* TutorialModels */ = {
+			isa = PBXGroup;
+			children = (
+				0D3216931DDC4E3E00FDBC13 /* TutorialManager.h */,
+				0DE7F34D1DDDE11100A55D3C /* Tutorial.h */,
+				0D32169A1DDC5CF300FDBC13 /* TutorialModel.h */,
+				0DE7F33E1DDDA71D00A55D3C /* TutorialRequest.h */,
+				0DE7F3471DDDB1C900A55D3C /* TutorialMetaData.h */,
+			);
+			name = TutorialModels;
+			sourceTree = "<group>";
+		};
+		0D5E35671DE43C0900E428C2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0D3216971DDC52EF00FDBC13 /* Clock.h */,
+				0DE7F33B1DDDA44D00A55D3C /* TutorialParser.h */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,18 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D3216961DDC526900FDBC13 /* Cache.mm in Sources */,
-				0D32167D1DDC49AF00FDBC13 /* ViewController.m in Sources */,
-				0DE7F34C1DDDD88300A55D3C /* TutorialModelView.mm in Sources */,
-				0D32167A1DDC49AF00FDBC13 /* AppDelegate.m in Sources */,
-				0DE7F3491DDDB1C900A55D3C /* TutorialMetaData.mm in Sources */,
-				0DE7F33D1DDDA44D00A55D3C /* TutorialFactory.mm in Sources */,
+				0D5E35621DE43A0900E428C2 /* imports.mm in Sources */,
 				0D3216771DDC49AF00FDBC13 /* main.m in Sources */,
-				0DE7F34F1DDDE11100A55D3C /* Tutorial.mm in Sources */,
-				0DE7F3401DDDA71D00A55D3C /* TutorialRequest.mm in Sources */,
-				0DE7F3461DDDAFAB00A55D3C /* TutorialMetaDataCache.mm in Sources */,
-				0DE7F3431DDDAC6500A55D3C /* TutorialURLProvider.mm in Sources */,
-				0D32169C1DDC5CF300FDBC13 /* TutorialModel.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

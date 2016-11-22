@@ -1,5 +1,5 @@
 // Copyright (c) 2016 Lightricks. All rights reserved.
-// Created by zur tene.
+// Created by Zur Tene.
 
 #import <Foundation/Foundation.h>
 
@@ -7,7 +7,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// Object represents the a meta data of a tutorial.
+/// Object represents the meta data of a tutorial.
 @interface TutorialMetaData : NSObject
 
 /// Initializes with provided \c tutorialId - which is a unique for every tutorial, \c category - 

@@ -1,5 +1,5 @@
 // Copyright (c) 2016 Lightricks. All rights reserved.
-// Created by zur tene.
+// Created by Zur Tene.
 
 #import <Foundation/Foundation.h>
 

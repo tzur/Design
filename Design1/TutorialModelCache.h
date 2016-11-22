@@ -1,5 +1,5 @@
 // Copyright (c) 2016 Lightricks. All rights reserved.
-// Created by zur tene.
+// Created by Zur Tene.
 
 #import <Foundation/Foundation.h>
 
@@ -12,10 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// Object used to manage a pressistent memory to store \c TutorialModel objects.
 @interface TutorialModelCache : NSObject <NSCoding>
 
-/// Returns an array of \c TutorialModel objects with the given \c tutorialId
-- (NSArray<TutorialModel *> *)tutorialModelWithId:(NSString *)tutorialId;
+/// Returns \c TutorialModel object with the given \c tutorialId.
+- (TutorialModel *)tutorialModelWithId:(NSString *)tutorialId;
 
-/// Removes the \c TutorialMetaData with the given \c tutorialId.
+/// Adds the given \c model to the pressistent memory, the key that will be used is \c
+/// model.tutorialId
+- (void)addTutorialModel:(TutorialModel *)model;
+
+/// Removes the \c TutorialModel with the given \c tutorialId.
 - (void)removeTutorialModelWithTutorialId:(NSString *)tutorialId;
 
 @end

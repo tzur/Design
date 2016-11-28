@@ -13,11 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TutorialSlidesShowModel : NSObject <TutorialModel>
 
 /// Initializes with \c tutorialImages an array of \c TutorialImageModel - The slide show model is
-/// in fact represented by an array of tutoriaul images.
+/// an array of tutorial images.
 - (instancetype)initWithTutorialImages:(NSArray<TutorialImageModel *> *)tutorialImages;
 
 /// The slides are divided into the array slots in a way that the first slides resides at index zero
-/// and the last slide resides at the last index of \c tutoriaulmages.
+/// and the last slide resides at the last index of \c tutorialImages.
 @property (readonly, nonatomic) NSArray<TutorialImageModel *> *tutorialImages;
 
 @end

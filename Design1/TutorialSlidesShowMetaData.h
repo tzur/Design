@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// Model used to represent a slide show metadata tutorial.
 @interface TutorialSlidesShowMetaData : NSObject <TutorialMetaData>
 
-/// Initializes with \c tutorialId the tutorial id, \c category the tutorial category, \c
-/// expirationDate the tutorial expiration date and \c metaDataArray the array of metadata objects
-/// that build the slide show.
-- (instancetype)initWithTutorialId:(NSString *)tutorialId
+/// Initializes with \c tutorialId the tutorial id, \c language the tutorial language,
+/// \c metaDataArray the metadata objects of the tutorials that are in the slide show and
+/// \c viewSize the tutorial size.
+- (instancetype)initWithTutorialId:(NSString *)tutorialId tutorialLanguage:(NSString *)language
                  withMetaDataArray:(NSArray<TutorialImageMetaData *> *)metaDataArray
                       withViewSize:(CGSize)viewSize;
 

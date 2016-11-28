@@ -14,23 +14,31 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// Completion block to fetch \c tutorialModel. On error \c tutorialModel will be \c nil and error
 /// will be set.
-typedef void (^TutorialModelCompletion)(id<TutorialModel> _Nullable, NSError * _Nullable );
+typedef void (^TutorialModelCompletion)(id<TutorialModel> _Nullable tutorialModel,
+                                        NSError * _Nullable );
 
-/// Completion block for insert tutorials operations. On error \c TutorialRequest will be \c nil and
-/// error will be set.
-typedef void (^TutorialMetaDataCompletion)(NSArray<id<TutorialMetaData>> *,
+/// Completion block for insert tutorials operations. On error \c tutorialMetaData will be \c nil
+/// and error will be set.
+typedef void (^TutorialMetaDataCompletion)(NSArray<id<TutorialMetaData>> * tutorialMetaData,
                                            NSError * _Nullable error);
 
-/// Object which fetches tutorial from its data providers and filters them.
+/// Object which fetches tutorial from its data providers.
 @interface TutorialManager : NSObject
 
 /// Initializes with the given \c providers array that used to fetch the tutorials data.
 - (instancetype)initWithDataProviders:(NSArray<id<DataProvider>> *)providers;
 
-
+/// Fetches tutorial metadata objects with respect to the given \c metaDataFilters. The result will
+/// be at \c completion block.
+///
+/// @note: the call may be asynchronous.
 -(void)tutorialMetaDataWithFilters:(NSArray<id<TutorialMetaDataFilter>> *)metaDataFilters
                     withCompletion:(TutorialMetaDataCompletion)completion;
 
+/// Fetches tutorial model with that belongs to the given \c metadata object. The result will be
+/// at \c completion block.
+///
+/// @note: the call may be asynchronous.
 -(void)tutorialModelWithMetaData:(id<TutorialMetaData>)metadata
                     withCompletion:(TutorialModelCompletion)completion;
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4061AEE7FE75A1A4245F22B5DA5FB23B0DDB1530",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55E989979235C18D21C300DFCFDCB18780B86C23" : 9223372036854775807,
+    "4061AEE7FE75A1A4245F22B5DA5FB23B0DDB1530" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "13CD2FAE-767E-4F7B-93F6-89A5DCD02245",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55E989979235C18D21C300DFCFDCB18780B86C23" : "Design1\/Design1\/",
+    "4061AEE7FE75A1A4245F22B5DA5FB23B0DDB1530" : "Design1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Design1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Design1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tzur\/Design.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4061AEE7FE75A1A4245F22B5DA5FB23B0DDB1530"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tzur\/Design",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55E989979235C18D21C300DFCFDCB18780B86C23"
+    }
+  ]
+}

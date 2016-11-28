@@ -4,15 +4,12 @@
 #import "imports.h"
 
 #import "TutorialModel.h"
-#import "TutorialParser.h"
-#import "Tutorial.h"
-#import "TutorialLoader.h"
 #import "TutorialRequest.h"
 #import "TutorialMetaData.h"
 #import "TutorialManager.h"
 #import "TutorialImageModel.h"
-#import "DiskTutorialLoader.h"
-#import "WebTutorialLoader.h"
+#import "DiskTutorialDataProvider.h"
+#import "WebTutorialDataProvider.h"
 #import "TutorialImageMetaData.h"
 #import "WebImageTutorialModelParser.h"
 #import "DiskImageTutorialModelParser.h"
@@ -31,6 +28,9 @@
 #import "TutorialSizeFilter.h"
 #import "TutorialMetaDataParser.h"
 #import "WebSlideShowTutorialModelParser.h"
+#import "TutorialDataProvider.h"
+#import "TutorialLanguageFilter.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @implementation imports

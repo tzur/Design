@@ -10,10 +10,14 @@ typedef NS_ENUM(NSUInteger, TutorialType) {
   Image
 };
 
+/// Object that represents metadata information of a tutorial.
 @protocol TutorialMetaData <NSObject>
 
 /// Unique id of a tutorial.
 @property (readonly, nonatomic) NSString *tutorialId;
+
+/// The language of the tutorial.
+@property (readonly, nonatomic) NSString *language;
 
 /// The type of the tutorial that this instance represent.
 @property (readonly, nonatomic) TutorialType *type;

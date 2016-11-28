@@ -7,7 +7,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DiskDataProvider : NSObject <DataProvider>
+/// Tutorial provider that obtaines tutorials from backend.
+@interface WebTutorialDataProvider : NSObject  <DataProvider>
 @end
 
 NS_ASSUME_NONNULL_END

@@ -5,12 +5,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// Object used to receive the current time.
-@interface Clock : NSObject
+@protocol TutorialModelParser;
 
-/// Returns the current time.
-- (NSDate *)currentTime;
-
+@interface WebSlideShowTutorialModelParser : NSObject <TutorialModelParser>
 @end
 
 NS_ASSUME_NONNULL_END

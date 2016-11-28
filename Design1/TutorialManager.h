@@ -3,39 +3,35 @@
 
 #import <Foundation/Foundation.h>
 
+#import "TutorialRequest.h"
+#import "TutorialModel.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-@class Clock, TutorialRequest, TutorialLoader, TutorialModel, TutorialMetaDataCache,
-    TutorialModelCache;
+@protocol DataProvider, TutorialMetaDataFilter;
+
+@class TutorialRequest, TutorialLoaderParserFactory, TutorialMetaDataStorage, PresentationSize;
 
 /// Completion block to fetch \c tutorialModel. On error \c tutorialModel will be \c nil and error
 /// will be set.
-typedef void (^TutorialModelCompletion)(TutorialModel * _Nullable tutorialModel,
-                                          NSError * _Nullable error);
+typedef void (^TutorialModelCompletion)(id<TutorialModel> _Nullable, NSError * _Nullable );
 
-/// Object which manages the tutorials logic. It is using two separate caches: \c
-/// TutorialMetaDataCache which stores \c TutorialMetaData objects and \c TutorialModelCache
-/// which stores \c TutorialModel objects. When there is no valid \c TutroialModel at the cache
-/// the object will delegate a load request to \c TutorialLoader and load the caches in accordance.
-///
-/// @note It is possible that certain tutorial will be in \c TutorialMetaDataCache but not in
-/// \c TutorialMetaData, but, the other way around is not.
-@interface TutorialCacheManager : NSObject
+/// Completion block for insert tutorials operations. On error \c TutorialRequest will be \c nil and
+/// error will be set.
+typedef void (^TutorialMetaDataCompletion)(NSArray<id<TutorialMetaData>> *,
+                                           NSError * _Nullable error);
 
-/// Initializes with \c tutorialLoader the tutorial loader \c Clock class that returns the current
-/// date, \c metaDataCache the tutorial meta data cache and \c modelCache the tutorial model cache.
-- (instancetype)initWithTutorialLoader:(TutorialLoader *)tutorialLoader withClock:(Clock *)clock
-                     withMetaDataCache:(TutorialMetaDataCache *)metaDataCache
-                            modelCache:(TutorialModelCache *)modelCache;
+/// Object which fetches tutorial from its data providers and filters them.
+@interface TutorialManager : NSObject
 
-/// Retrieve the appropriate tutorial to the \c tutorialRequest. The response will be at \c
-/// completion block.
-///
-/// @note if there is no appropriate tutorial in the caches the object will delegate a load call to
-/// \c tutorialLoader, the call may be asynchronous.
-- (void)tutorialModelWithTutorialRequest:(TutorialRequest *)tutorialRequest
-                                   completion:(TutorialModelCompletion)completion;
+/// Initializes with the given \c providers array that used to fetch the tutorials data.
+- (instancetype)initWithDataProviders:(NSArray<id<DataProvider>> *)providers;
 
-@end
+
+-(void)tutorialMetaDataWithFilters:(NSArray<id<TutorialMetaDataFilter>> *)metaDataFilters
+                    withCompletion:(TutorialMetaDataCompletion)completion;
+
+-(void)tutorialModelWithMetaData:(id<TutorialMetaData>)metadata
+                    withCompletion:(TutorialModelCompletion)completion;
 
 NS_ASSUME_NONNULL_END

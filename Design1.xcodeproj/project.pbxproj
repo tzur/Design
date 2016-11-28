@@ -21,20 +21,27 @@
 		0D3216811DDC49AF00FDBC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D3216841DDC49AF00FDBC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3216861DDC49AF00FDBC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D32168C1DDC49EB00FDBC13 /* TutorialLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialLoader.h; sourceTree = "<group>"; };
 		0D3216931DDC4E3E00FDBC13 /* TutorialManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialManager.h; sourceTree = "<group>"; };
-		0D3216941DDC526900FDBC13 /* TutorialModelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModelCache.h; sourceTree = "<group>"; };
-		0D3216971DDC52EF00FDBC13 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
-		0D32169A1DDC5CF300FDBC13 /* TutorialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModel.h; sourceTree = "<group>"; };
+		0D32169A1DDC5CF300FDBC13 /* TutorialImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialImageModel.h; sourceTree = "<group>"; };
+		0D3B5E9C1DEADD8900B0F7D3 /* TutorialSlidesShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialSlidesShowModel.h; sourceTree = "<group>"; };
+		0D3B5E9F1DEADFF300B0F7D3 /* TutorialSlidesShowMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialSlidesShowMetaData.h; sourceTree = "<group>"; };
+		0D3B5EAA1DEB15FD00B0F7D3 /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		0D3B5EAC1DEB1FB700B0F7D3 /* DiskDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskDataProvider.h; sourceTree = "<group>"; };
+		0D3B5EAF1DEB1FC500B0F7D3 /* WebDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebDataProvider.h; sourceTree = "<group>"; };
+		0D3B5EB21DEB219800B0F7D3 /* TutorialModelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModelParser.h; sourceTree = "<group>"; };
+		0D3B5EB51DEB229600B0F7D3 /* TutorialFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialFilter.h; sourceTree = "<group>"; };
+		0D3B5EB71DEB23B000B0F7D3 /* TutorialSizeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialSizeFilter.h; sourceTree = "<group>"; };
+		0D3B5EBB1DEB26A200B0F7D3 /* TutorialMetaDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialMetaDataParser.h; sourceTree = "<group>"; };
+		0D3B5EBE1DEB27E300B0F7D3 /* WebSlideShowTutorialModelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSlideShowTutorialModelParser.h; sourceTree = "<group>"; };
 		0D5E35601DE43A0900E428C2 /* imports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imports.h; sourceTree = "<group>"; };
 		0D5E35611DE43A0900E428C2 /* imports.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = imports.mm; sourceTree = "<group>"; };
-		0DE7F33B1DDDA44D00A55D3C /* TutorialParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialParser.h; sourceTree = "<group>"; };
-		0DE7F33E1DDDA71D00A55D3C /* TutorialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialRequest.h; sourceTree = "<group>"; };
-		0DE7F3411DDDAC6500A55D3C /* TutorialURLProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialURLProvider.h; sourceTree = "<group>"; };
-		0DE7F3441DDDAFAB00A55D3C /* TutorialMetaDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialMetaDataCache.h; sourceTree = "<group>"; };
-		0DE7F3471DDDB1C900A55D3C /* TutorialMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialMetaData.h; sourceTree = "<group>"; };
-		0DE7F34A1DDDD88300A55D3C /* TutorialModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModelView.h; sourceTree = "<group>"; };
-		0DE7F34D1DDDE11100A55D3C /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		0D5E35CE1DE5D35D00E428C2 /* TutorialModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialModel.h; sourceTree = "<group>"; };
+		0D5E35CF1DE5D50800E428C2 /* TutorialMetaData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialMetaData.h; sourceTree = "<group>"; };
+		0D5E35D61DE5D78A00E428C2 /* WebImageTutorialModelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImageTutorialModelParser.h; sourceTree = "<group>"; };
+		0D5E35D91DE5D79B00E428C2 /* DiskImageTutorialModelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskImageTutorialModelParser.h; sourceTree = "<group>"; };
+		0D5E36C71DEACBF200E428C2 /* TutorialModelParserFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialModelParserFactory.h; sourceTree = "<group>"; };
+		0DE7F3471DDDB1C900A55D3C /* TutorialImageMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialImageMetaData.h; sourceTree = "<group>"; };
+		0DE7F34A1DDDD88300A55D3C /* TutorialImageModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialImageModelView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +75,11 @@
 		0D3216741DDC49AF00FDBC13 /* DesignExc1 */ = {
 			isa = PBXGroup;
 			children = (
-				0D5E35671DE43C0900E428C2 /* Utils */,
+				0D3B5EBA1DEB267200B0F7D3 /* Parsers */,
+				0D3B5EB61DEB237B00B0F7D3 /* TutorialFilters */,
+				0D3B5EAB1DEB1EE200B0F7D3 /* Providers */,
+				0D3B5EA21DEAF68A00B0F7D3 /* DeviceSizes */,
 				0D5E35661DE43BCB00E428C2 /* TutorialModels */,
-				0D5E35651DE43B9F00E428C2 /* LoadingModels */,
 				0D5E35641DE43B9400E428C2 /* TutorialModelView */,
 				0D5E35631DE43B8700E428C2 /* Caches */,
 			);
@@ -93,11 +102,66 @@
 			path = Design1;
 			sourceTree = "<group>";
 		};
+		0D3B5E7F1DEAD55F00B0F7D3 /* TutorialImage */ = {
+			isa = PBXGroup;
+			children = (
+				0D32169A1DDC5CF300FDBC13 /* TutorialImageModel.h */,
+				0DE7F3471DDDB1C900A55D3C /* TutorialImageMetaData.h */,
+			);
+			name = TutorialImage;
+			sourceTree = "<group>";
+		};
+		0D3B5E801DEAD58300B0F7D3 /* TutorialSlidesShow */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B5E9C1DEADD8900B0F7D3 /* TutorialSlidesShowModel.h */,
+				0D3B5E9F1DEADFF300B0F7D3 /* TutorialSlidesShowMetaData.h */,
+			);
+			name = TutorialSlidesShow;
+			sourceTree = "<group>";
+		};
+		0D3B5EA21DEAF68A00B0F7D3 /* DeviceSizes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DeviceSizes;
+			sourceTree = "<group>";
+		};
+		0D3B5EAB1DEB1EE200B0F7D3 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B5EAA1DEB15FD00B0F7D3 /* DataProvider.h */,
+				0D3B5EAC1DEB1FB700B0F7D3 /* DiskDataProvider.h */,
+				0D3B5EAF1DEB1FC500B0F7D3 /* WebDataProvider.h */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		0D3B5EB61DEB237B00B0F7D3 /* TutorialFilters */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B5EB51DEB229600B0F7D3 /* TutorialFilter.h */,
+				0D3B5EB71DEB23B000B0F7D3 /* TutorialSizeFilter.h */,
+			);
+			name = TutorialFilters;
+			sourceTree = "<group>";
+		};
+		0D3B5EBA1DEB267200B0F7D3 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B5EB21DEB219800B0F7D3 /* TutorialModelParser.h */,
+				0D5E35D91DE5D79B00E428C2 /* DiskImageTutorialModelParser.h */,
+				0D5E35D61DE5D78A00E428C2 /* WebImageTutorialModelParser.h */,
+				0D5E36C71DEACBF200E428C2 /* TutorialModelParserFactory.h */,
+				0D3B5EBB1DEB26A200B0F7D3 /* TutorialMetaDataParser.h */,
+				0D3B5EBE1DEB27E300B0F7D3 /* WebSlideShowTutorialModelParser.h */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
 		0D5E35631DE43B8700E428C2 /* Caches */ = {
 			isa = PBXGroup;
 			children = (
-				0D3216941DDC526900FDBC13 /* TutorialModelCache.h */,
-				0DE7F3441DDDAFAB00A55D3C /* TutorialMetaDataCache.h */,
 			);
 			name = Caches;
 			sourceTree = "<group>";
@@ -105,39 +169,21 @@
 		0D5E35641DE43B9400E428C2 /* TutorialModelView */ = {
 			isa = PBXGroup;
 			children = (
-				0DE7F34A1DDDD88300A55D3C /* TutorialModelView.h */,
+				0DE7F34A1DDDD88300A55D3C /* TutorialImageModelView.h */,
 			);
 			name = TutorialModelView;
-			sourceTree = "<group>";
-		};
-		0D5E35651DE43B9F00E428C2 /* LoadingModels */ = {
-			isa = PBXGroup;
-			children = (
-				0D32168C1DDC49EB00FDBC13 /* TutorialLoader.h */,
-				0DE7F3411DDDAC6500A55D3C /* TutorialURLProvider.h */,
-			);
-			name = LoadingModels;
 			sourceTree = "<group>";
 		};
 		0D5E35661DE43BCB00E428C2 /* TutorialModels */ = {
 			isa = PBXGroup;
 			children = (
+				0D3B5E801DEAD58300B0F7D3 /* TutorialSlidesShow */,
+				0D3B5E7F1DEAD55F00B0F7D3 /* TutorialImage */,
 				0D3216931DDC4E3E00FDBC13 /* TutorialManager.h */,
-				0DE7F34D1DDDE11100A55D3C /* Tutorial.h */,
-				0D32169A1DDC5CF300FDBC13 /* TutorialModel.h */,
-				0DE7F33E1DDDA71D00A55D3C /* TutorialRequest.h */,
-				0DE7F3471DDDB1C900A55D3C /* TutorialMetaData.h */,
+				0D5E35CE1DE5D35D00E428C2 /* TutorialModel.h */,
+				0D5E35CF1DE5D50800E428C2 /* TutorialMetaData.h */,
 			);
 			name = TutorialModels;
-			sourceTree = "<group>";
-		};
-		0D5E35671DE43C0900E428C2 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				0D3216971DDC52EF00FDBC13 /* Clock.h */,
-				0DE7F33B1DDDA44D00A55D3C /* TutorialParser.h */,
-			);
-			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

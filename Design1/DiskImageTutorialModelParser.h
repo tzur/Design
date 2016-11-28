@@ -7,6 +7,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TutorialModelParser;
 
+/// Object which handles the creation of image tutorial object located on disk, from
+/// \c TutorialModel.
 @interface DiskImageTutorialModelParser : NSObject <TutorialModelParser>
 @end
 

@@ -9,9 +9,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class TutorialRequest;
 
+/// Object which creates concrete \c TutorialModelParser object from a \c TutorialMetaData object.
 @interface TutorialModelParserFactory : NSObject
 
-- (id<TutorialModelParser>)tutorialParserWithTutorialMetaData:(id<TutorialMetaData>)request;
+/// Returns \c TutorialModelParser object created from the given request.
++ (id<TutorialModelParser>)tutorialParserWithTutorialMetaData:(id<TutorialMetaData>)request;
 
 @end
 

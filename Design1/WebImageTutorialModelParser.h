@@ -7,6 +7,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TutorialModelParser;
 
+/// Object which handles the creation of image tutorial object located on web, from
+/// \c TutorialModel.
 @interface WebImageTutorialModelParser : NSObject <TutorialModelParser>
 @end
 

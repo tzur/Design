@@ -7,6 +7,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol TutorialModelParser;
 
+/// Object which handles the creation of slide show tutorial object located on web.
 @interface WebSlideShowTutorialModelParser : NSObject <TutorialModelParser>
 @end
 
